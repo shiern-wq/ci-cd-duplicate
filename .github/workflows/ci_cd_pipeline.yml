@@ -1,4 +1,3 @@
-name: CI/CD Pipeline
-  name: Remove duplicate files
-  run: |
-    python remove_duplicates.py || exit 0
+name: Remove duplicate files
+run: |
+  python remove_duplicates.py || exit 0
